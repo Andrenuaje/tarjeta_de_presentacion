@@ -18,3 +18,12 @@ header{
     letter-spacing: 5px;
     color: whitesmoke;
 }
+div{
+   margin: 50px;
+   color: whitesmoke;
+   padding: 20px;
+   background-color: rgba(128, 128, 128, 0.541);
+   border-style: double;
+   border-radius: 20px;
+
+}
