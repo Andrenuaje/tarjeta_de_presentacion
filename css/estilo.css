@@ -5,18 +5,25 @@
 body{
     background-color: cadetblue;
 }
-header{
+header:hover{
+    background-image: url(../img/pexels-santesson89-32660267.jpg); 
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-color: rgba(128, 128, 128, 0.541);
     padding: 10px;
     border-style: double;
     border-radius: 20px;
 
 }
-.presentacion{
+.presentacion {
+    
+    font-family: "Orbitron", sans-serif;
     text-align: center;
     text-transform: initial;
     letter-spacing: 5px;
-    color: whitesmoke;
+    color: rgb(0, 255, 255);
 }
 div{
    margin: 50px;
@@ -26,4 +33,11 @@ div{
    border-style: double;
    border-radius: 20px;
 
+}
+footer{
+    background-color: rgba(128, 128, 128, 0.541);
+    color: whitesmoke;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 5px;
 }
